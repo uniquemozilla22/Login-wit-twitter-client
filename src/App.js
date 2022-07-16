@@ -11,10 +11,9 @@ function App() {
     <LayoutComponent user ={userObject}>
     <Routes>
       <Route path="/" exact element={<>Home</>}/>
-      <Route path="/login" element={<LoginScreen/>}/>
+      <Route path="/login" element={<LoginScreen />}/>
     </Routes>
     </LayoutComponent>
-
   );
 }
 
